@@ -6,8 +6,6 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local function task()
     local Event = ReplicatedStorage.Remotes.Pushup
     Event:FireServer()
-    local Event = ReplicatedStorage.Remotes.Pushup
-    Event:FireServer()
 end
 
 
