@@ -1,18 +1,12 @@
 --HP 
-
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
-
-
 local function task()
-    local Event = ReplicatedStorage.Remotes.Pushup
-    Event:FireServer()
-    local Event = ReplicatedStorage.Remotes.Pushup
-    Event:FireServer()
+local Event = ReplicatedStorage.Remotes.Pushup
+Event:FireServer()
+local Event = ReplicatedStorage.Remotes.Pushup
+Event:FireServer()
 end
-
-
 while true do
-
     for i = 1, 1 do
         task()
         wait()  
